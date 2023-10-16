@@ -1,0 +1,28 @@
+body {
+  background-color: powderblue;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+  font-family: verdana;
+  font-size: 222%;
+}
+
+h2 {
+  text-align: center;
+
+  margin: 5px;
+
+  padding: 5px;
+}
+
+p {
+  color: black;
+  text-align: left;
+  font-family: courier;
+  font-size: 100%;
+}
+img {
+  
+}
