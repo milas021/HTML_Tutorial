@@ -1,5 +1,5 @@
 body {
-  background-color: whitesmoke;
+  background-color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -7,25 +7,22 @@ h1 {
 }
 
 table {
-  border-spacing: 15px;
+   border-spacing: 1px; 
   width: 100%;
 }
+th {
+  text-align: center;
+  background-color: rgb(131, 131, 230);
+}
 
-th,
 td {
-  background-color: aquamarine;
-  /* border: 1px solid black; */
-  border-collapse: collapse;
-  border-radius: 10px;
-  border-style: groove;
-  padding: 10px;
-  border-spacing: 15px;
-  /* border-color: red; */
-}
-tr :nth-child(even){
- background-color: aliceblue;
+  text-align: center;
 }
 
-/* th {
-  width: 33%;
-} */
+tr:nth-child(even) {
+  /* background-color: aqua; */
+}
+
+tr:nth-child(odd) {
+  /* background-color: aquamarine; */
+}

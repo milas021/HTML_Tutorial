@@ -1,52 +1,78 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="/Styles/NewStyle.css">
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    
-    <script src='main.js'></script>
-</head>
-<body>
-    <h1 >Table</h1>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>new style</title>
+    <link rel="stylesheet" href="/Styles/NewStyle.css" />
+  </head>
+  <body>
+    <h1>Table</h1>
 
     <table>
-        <caption>student's info</caption>
-        <tr>
-            <th>Id</th>
-           <th colspan="2">Name</th>
-        </tr>
-        <tr style="height: 100px;">
-            <th>1</th>
-            <td>Ali</td>
-            <td>Salek Fard</td>
-        </tr>
-        <tr>
-            <th >2</th>
-            <td>Abolfazl</td>
-            <td>Taghavi</td>
-        </tr>
-        <tr>
-            <th>3</th>
-            <td>Hamed</td>
-            <td>Ezati</td>
-        </tr>
-    </table>
-    <hr>
-    <table>
-        <tr>
-          <th>Name</th>
-          <td>Jill</td>
-        </tr>
-        <tr>
-          <th rowspan="2">Phone</th>
-          <td>555-1234</td>
-        </tr>
-        <tr>
-          <td>555-8745</td>
+      <caption>
+        student's info
+      </caption>
+      <colgroup>
+        <col span="2" >
+        <col span="1" style="background-color: pink;">
+      </colgroup>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Family</th>
       </tr>
-      </table>
-</body>
+      <tr>
+        <td>1</td>
+        <td>Ali</td>
+        <td>Salek Fard</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Abolfazl</td>
+        <td>Taghavi</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Hamed</td>
+        <td>Ezati</td>
+      </tr>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, hic maiores. Repellendus, odio? Eveniet quo est, facilis cupiditate excepturi consequatur. Impedit cupiditate, autem adipisci illum maiores quam. Quae, ab fuga?</p>
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+
+    </ul>
+    <ol start="5" >
+      <li>Coffeeeeee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+
+    </ol >
+    <ol  >
+      <li>Coffeeeeee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+
+    </ol >
+    <dl>
+      <dt>Coffee</dt>
+      <dd>black hot drink</dd>
+      <dt>Milk</dt>
+      <dd>white cold drink</dd>
+    </dl>
+
+    <ul>
+      <li>Coffee</li>
+      <li>Tea
+        <ul>
+          <li>Black tea</li>
+          <li>Green tea</li>
+        </ul>
+      </li>
+      <li>Milk</li>
+    </ul>
+  </body>
 </html>
